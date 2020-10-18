@@ -1,0 +1,187 @@
+.App {
+  text-align: center;
+  background-color: rgb(248, 226, 229);
+  height:100vw;
+}
+
+.App .searchSection{
+  width:100%;
+  margin-top: 20px;
+  margin:auto;
+}
+
+.App .searchSection .searchBar{
+  padding:15px;
+  background-color: white;
+  border-radius: 6px 6px 6px 6px;
+  outline:none;
+  border-color: pink;
+  box-shadow: 0px 5px rgb(247, 159, 173);
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+  width: 40%;
+  height: 12px;
+}
+
+
+
+.Error{
+  margin-top: 40px;
+}
+
+.hidden{
+  display: none;
+}
+.hidden .dropbtn{
+  display:none;
+}
+.hidden #aSearch{
+  display:none;
+}
+.hidden #AScontent{
+  display: none;
+}
+
+.dropbtn{
+  background-color: rgb(248, 138, 156); 
+  border: none;
+  color: white;
+  border-radius: 8px 8px 8px 8px;
+  padding: 7px 16px 7px 32px;;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  outline: none;
+}
+.dropbtn:hover{
+  background-color:rgb(219, 120, 136);
+}
+
+#AScontent{
+  background-color: white;
+  padding: 5px 16px 15px 24px;
+  width: 225px;
+  margin: auto;
+  margin-bottom: 15px;
+  border-color: rgb(248, 138, 156);
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 4px 4px 4px 4px;
+  display:flex;
+  align-content: left;
+  flex-shrink: 2;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.box{
+  text-align:left;
+}
+
+#AScontent .dropbtn{
+  background-color: rgb(247, 178, 190);
+  outline:none;
+  padding: 7px 10px 7px 10px;
+}
+#AScontent .dropbtn:hover{
+  background-color: rgb(209, 151, 161);
+}
+#wordSearch{
+  background-color: rgb(185, 87, 103); 
+  border: none;
+  color: white;
+  border-radius: 16px 16px 16px 16px;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 8px;
+  width: 20%;
+  outline:none;
+}
+#wordSearch:hover{
+  background-color:rgb(128, 59, 70)
+}
+
+#aSearch{
+  background-color: rgb(185, 87, 103); 
+  border: none;
+  color: white;
+  border-radius: 16px 16px 16px 16px;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+  margin-left: 13px;
+  width: 35%;
+  height: 10%;
+  outline: none;
+}
+#aSearch:hover{
+  background-color: rgb(128, 59, 70);
+}
+
+h1{
+  padding-top: 5px;
+  padding-right: 3px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  color: white;
+  margin: auto;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  width: 50%;
+  font-size: 175%;
+  text-shadow: -1.75px 1.75px 1px rgb(248, 138, 156), 
+  1.75px 1.75px 1px rgb(248, 138, 156), 
+  1.75px -1.75px 1px rgb(248, 138, 156), 
+  -1.75px -1.75px 1px rgb(248, 138, 156);
+  font-family: 'Fredoka One', cursive;
+}
+
+
+/* tablet sizing */
+@media (min-width:768px){
+  .searchBar{
+    width: 40%;
+    height: 40px;
+  }
+  h1{
+    padding-top: 40px;
+  }
+  #AScontent{
+    width: 461.8px;
+
+  }
+  .results{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  h1{
+    font-size: 220%;
+  }
+}
+@media(min-width:992px){
+  .results{
+    margin:auto;
+    margin-left: 5%;
+    text-align:center;
+  }
+  #AScontent{
+    width:497px;
+  }
+  #aSearch{
+    margin-left: 20px;
+    margin-right:3px;
+  }
+  h1{
+    font-size: 250%;
+  }
+}

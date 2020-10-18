@@ -1,0 +1,69 @@
+#PopUp{
+    background-color: pink;
+    position: fixed;
+    margin:auto;
+    width: 90%;
+    height: 375px;
+    top: 100px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+.hidden{
+    display:none;
+}
+.exit{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    margin-left: 0px;
+    background-color: rgb(185, 87, 103); 
+    border: none;
+    color: white;
+    border-radius: 16px 16px 16px 16px;
+    width: 7%;
+    height: 5%;
+    outline: none;
+}
+.exit:hover{
+    background-color: rgb(128, 59, 70);
+}
+.description{
+    font-size:12px;
+}
+h3{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family:'Fredoka One', cursive;
+    font-size: 25px;
+}
+#PopUp .image-container{
+    margin-top: 25px;
+}
+#PopUp .label{
+    margin-top: 12px;
+}
+#PopUp .stats{
+    margin-top: 12px;
+}
+@media (min-width:768px){
+    #PopUp .words{
+        font-size: 20px;
+    }
+    #PopUp p{
+        font-size: 20px;
+    }
+    #PopUp .description{
+        font-size: 20px;
+    }
+    .exit{
+        height: 7%;
+    }
+    #PopUp{
+        height: 400px;
+    }
+}
+

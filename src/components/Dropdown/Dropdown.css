@@ -1,0 +1,11 @@
+.hidden{
+    display: none;
+}
+#subdrop .dropbtn{
+    width: 135px;
+}
+@media (min-width:768px){
+    #subdrop .dropbtn{
+        width: 300px;
+    }
+}
